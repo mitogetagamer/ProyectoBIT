@@ -1,7 +1,9 @@
 # ProyectoBIT
 
-## Autor: David Niño
+## 1 Proyecto calificalbe 
+Hacer un proyecto web en HTML y css plano.
 
----
-
-Este proyecto consistirá principalmente en aplicar los conocimientos parendidos mediante el desarrollo de mi primer sitio web el cual va a tener como proposito presentarme y dar algunos datos sobre mi
+### Requerimientos 
+- Proyecto individual 
+- Contenido hacerca del desarrollador web 
+#
