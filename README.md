@@ -2,7 +2,7 @@
 
 ## 1 Proyecto calificalbe
 
-Hacer un proyecto web en HTML y css plano que contenga un poco de información sobre mi con el proposito de presentarme
+Hacer un proyecto web en HTML y css plano que contenga un poco de información sobre mi con el proposito de presentarmegig
 
 ### Requerimientos
 
