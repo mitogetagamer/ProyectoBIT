@@ -7,21 +7,30 @@
 
 
 
-.git{position: relative; top:100px;
+.git{
+ 
+  position: relative; top:100px;
   left: 1000px;  
   }
-  .ig{position: relative; top:100px;
+  .ig{
+    position: relative; top:100px;
     left: 1000px;}
 .foto{
+  
+  
+ 
   position: relative;
   left: 950px;
   bottom: 90px;
   height: 240px;
 }
-.texto{position: relative;
+.texto{
+
+  position: relative;
 right: 500px;
 bottom:40px}  
 body {
+  
   width: 1720px;
   height: 1080px;
   margin-left: auto;
@@ -32,29 +41,39 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  header{flex-direction: column;
+    width: 100px;
+    
+    
+  }
   
   nav {
-      padding: 10px;
+    width: 100px;
+      display: flex;
+
   }
 
   
   .algo,.lista1,.listas{
+    width: 100px;
       margin: 10px;
   }
 
-  .foto,.git,.ig{
-      max-width: 100px;
-      height: auto;
+  .foto,.git,.ig{ 
+    width: 100px;
+    flex-direction: column;
   }
 
   
   .lista1,.lado {
-      width: 100px;
+    width: 100px;
+    flex-direction: column;
   }
 
  
   footer {
-      padding: 10px;
+    width: 100px;
+    flex-direction: column;
   }
 }
 
@@ -66,51 +85,67 @@ body {
 
 
 header{
-display: flex;
-position: sticky
-;
 
-margin-left: 700px;}
+ 
+position: sticky;
+margin-left:700px;}
 
 nav{
+ 
+ 
    margin-left: 20px;
   margin-top: 80px;
 
+
 }
 
-.algo{position: relative;
+.algo{
+
+  position: relative;
   right: 400px;
   }
 
 .listas{
+ 
   
   float: left;
   }
   .lista {
+    
+
   position: relative;
     left: 500px;
   float: left;}
 
-.lista1{float: left;
+.lista1{
+
+  float: left;
 position: relative;
 top: 200px;}
 .pr{
+ 
+
   position: relative;
   float: left;
 left: 1222px;
 }
 
-.algo{position: relative;
+.algo{
+ 
+  position: relative;
 right: 550px
 }
 
 .cancion{
+
   position: relative;
   left: 250px;
   bottom: 190px
   
 }
-.lado{position: absolute;
+.lado{
+ 
+  position: absolute;
   
 
 
@@ -118,6 +153,7 @@ right: 550px
 
 
 .comida{
+  
   position: relative;
   float: right;
   bottom: 100px;
@@ -125,6 +161,7 @@ left: 300px;
 }
 
 h1  {
+ 
   font-family: "Madimi One", sans-serif;
   font-weight: 400;
   font-style: normal;
